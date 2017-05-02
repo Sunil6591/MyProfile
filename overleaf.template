@@ -1,0 +1,142 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% My Resume
+% LaTeX Template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{my-resume-openfont}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Sunil}{Joshi}
+{ Pune, India
+| \href{https://www.linkedin.com/in/sunil-joshi-65409b16/}{LinkedIn}
+| \href{mailto:suniljoshi.is.available@gmail.com}{suniljoshi.is.available@gmail.com}
+| 91-9960509991 \\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Specialties:}
+JavaScript (ES6) \textbullet{} HTML5 \textbullet{} CSS3 \\
+\location{Familiar with:}
+.Net \textbullet{} CoffeeScript \\
+\sectionsep
+
+\descript{Libraries/Frameworks}
+React \textbullet{} Redux \textbullet{} jQuery \\
+AngularJS \textbullet{} Google Polymer \textbullet{} Progressive Web App \\
+Node.js \textbullet{} Express \\
+Bootstrap \textbullet{} less \\
+\sectionsep
+
+\descript{Testing}
+Jest \textbullet{} Mocha \\
+\sectionsep
+
+\descript{Databases}
+Firebase \textbullet{} MySQL \textbullet{} MongoDB \\
+\sectionsep
+
+\descript{Tools}
+Webpack \textbullet{} Grunt \textbullet{} Babel \textbullet{} Browserify \\
+npm \textbullet{} bower \textbullet{} WebPageTest \textbullet{} Lighthouse \\
+Chrome Dev Tools \textbullet{} Page Speed \\
+ESLint \textbullet{} PostCSS \\
+Git \textbullet{} SVN
+\sectionsep
+
+\descript{Other}
+Google Analytics \textbullet{} AWS \\
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{Pune University}
+\descript{Masters in Computer Science}
+\location{June 2005 | Pune, India}
+\location{ First Class }
+\sectionsep
+
+\subsection{Pune University}
+\descript{Bachelor in Computer Science}
+\location{April 2002 | Pune, India}
+\location{ First Class }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Ekids}
+\descript{Daycare Management tool | Full Stack Developer (Lead) }
+\location{May 2015 – Present | Remote}
+\location{React | Redux | Firebase}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Actively involved in planning and building user experiences for Ekids's web app by collaborating with business owners.
+\item Its daycare management tool for managers, teachers and parents.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{SUNGARD}
+\descript{Widget Store | Front End Engineer }
+\location{Aug 2013 – May 2015 | Pune, India}
+\location{Google Polymer | MongoDB}
+\begin{tightemize}
+\item It’s a widget store where people will browse thru the store for widgets. Once they are satisfied they would download the widget and start using it.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{SUNGARD}
+\descript{Weblink | Web Developer}
+\location{Aug 2009 – Aug 2013 | Pune, India}
+\location{ASP.NET | WebApi}
+\begin{tightemize}
+\item Understand in depth business requirements by cocoordinating with business analysts.
+\item Create UI design and HTML5.
+\item CreateUIspecificationsforeachscreen.
+\item Designing architecture of new UI Design.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Mastek}
+\descript{| Software Engineer}
+\location{ASP.NET}
+\location{Jul 2005 – Aug 2009 | Pune, India}
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
